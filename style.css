@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    color: aqua ;
+}
+.head {
+    background-color: blue;
+   height: 100px;
+   width: 100%; 
+   position: fixed;
+   display: flex;
+   align-items: center;
+   font-size: 50px;
+   color: aqua;
+}
+.games {
+    display: flex;
+    left: 80px;
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+   
+
+}
+.games a {
+    text-decoration: none;
+}
+.games img {
+    border-radius: 20px;
+}
+.witcher {
+    position: relative;
+    top: 150px;
+}
+.elden {
+    position: relative;
+    top: 250px;
+}
+.gta {
+    position: relative;
+    top: 150px;
+}
+.reddead {
+    position: relative;
+    top: 250px;
+}
+.godofwar {
+    position: relative;
+    top: 150px;
+}
+
+body {
+    background-image: url(./images/background.png);
+}
+
+.bot {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    align-items: center;
+    background-color: blue;
+    color: aqua;
+    font-size: 50px;
+}
+header img {
+    position: absolute;
+    height: 78px;
+    width: 80px;
+    right: 50px;
+}
+section {
+    position: relative;
+    background-color: aquamarine;
+    height: 500px;
+    width: 1800px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
